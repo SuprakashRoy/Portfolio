@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suprakash Roy's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d86d2ea0dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#Work">My Work</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Suprakash</span><br>Roy From India</h1>
+    </div>
+    </div>
+ </div> 
+ <!---------------------------------about----------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>My name is Suprakash Roy, and I am currently pursuing my BTech degree in Computer Science and Engineering at Hooghly Engineering & Technology College. As a full-stack developer, my goal is to continually learn new technologies and share these advancements with my workplace. I believe that not knowing something is not a fault, but failing to address this ignorance after recognizing it is the biggest mistake. I strive to avoid such mistakes in my life. I am punctual, capable of handling workloads, and always aim to complete my tasks efficiently.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">SKills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Exprience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Frontend Developer</span><br>Designing Web interfaces</li>
+                    <li><span>Backend Developer</span><br>Working on server-side software, which focuses on everything you can't see on a website</li>
+                    <li><span>Software Developer</span><br>Specialises in the design and implementation of computer databases</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023-current</span><br>MERN stack developing</li>
+                    <li><span>2022-2023</span><br>C language with basic programing</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2021-current</span><br>BTech. from Hooghly Engineering & Technology College</li>
+                    <li><span>2021</span><br>Passed out Higher Secondary Examination from Barsul C.D.P. High School</li>
+                    <li><span>2019</span><br>Passed out Secondary Examination from Barsul C.D.P. High School</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+ </div>
+ <!--------------------------services----------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>As a web designer, I create the visual aspects of websites, including designing layouts, crafting graphics and icons, and ensuring usability and accessibility, to make websites both attractive and user-friendly.</p>
+            <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-city"></i>
+                <h2>Software Developer</h2>
+                <p>As a Software Developer, I create the visual aspects of websites, including designing layouts, backend logics and managing database, to make websites both attractive and user-friendly.</p>
+            <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--my work-->
+ <div id="Work"></div>
+ <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.jpg">
+            <div class="layer">
+                <h3>Portfolio website</h3>
+                <p>I am here to craft an exceptional portfolio website that will elevate your job application and amplify your identity to the world. With a focus on professional design, seamless functionality, and personalized details, I ensure your portfolio stands out and leaves a lasting impression on potential employers and audiences alike. Let me help you showcase your skills and achievements in the most compelling way possible.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.jpg">
+            <div class="layer">
+                <h3>Car Parts Marketplace</h3>
+                <p>Welcome to Car Parts Marketplace - the most efficient platform for all your car parts needs. I am dedicated to providing you with seamless shopping, secure payments, reliable authentication, and authentic customer reviews. Your satisfaction is my mission, and I'm here to ensure your car repair and maintenance journey is nothing short of exceptional.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Ecommerce Website</h3>
+                <p>Welcome to our eCommerce platform, inspired by the efficiency and elegance of ZARA. I am dedicated to delivering an exceptional online shopping experience with a sleek design, secure payments, seamless authentication, and genuine customer reviews. Shop the latest trends with confidence and ease, knowing that your satisfaction is my top priority.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#"class="btn">See more</a>
+ </div>
+ <!---contact-->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>suprakashroy71@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7478436016</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/suprakash.roy.7965?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/suprakash-roy-0355882a2/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SuprakashRoy"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="Text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email">
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i>Suprakash. Made <i class="fa-solid fa-heart"></i> by Suprakash Roy</p>
+        </div>
+    </div>
+ </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>  
+ <script>
+var sidemenu= document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxs5qMHDJw6HWmz1Cxadj8gcdkkfpZYqlS6DjPh-3s0n-vm7Su1OQdTH3Pp3_2GGrabNg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Massage sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
