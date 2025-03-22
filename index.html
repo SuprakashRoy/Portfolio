@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suprakash Roy's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d86d2ea0dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#Work">My Work</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Suprakash</span><br>Roy From India</h1>
+    </div>
+    </div>
+ </div> 
+ <!---------------------------------about----------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>My name is Suprakash Roy, and I am currently pursuing my BTech degree in Computer Science and Engineering at Hooghly Engineering & Technology College. As a full-stack developer, my goal is to continually learn new technologies and share these advancements with my workplace. I believe that not knowing something is not a fault, but failing to address this ignorance after recognizing it is the biggest mistake. I strive to avoid such mistakes in my life. I am punctual, capable of handling workloads, and always aim to complete my tasks efficiently.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">SKills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Exprience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Basic Web Developing</span><br>Designing Web interfaces using HTML, CSS, Javascript</li>
+                    <li><span>Basic Data Analytical Skills</span><br>Basic level Data Cleaning, Analysis using Excel, Power BI, Python and SQL</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023-2024</span><br>Basic Web Developing using Html, CSS, Javascript</li>
+                    <li><span>2024-Current</span><br>Data Analysis with Power BI, Excel, Python and SQL</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2021-current</span><br>BTech. from Hooghly Engineering & Technology College</li>
+                    <li><span>2021</span><br>Passed out Higher Secondary Examination from Barsul C.D.P. High School</li>
+                    <li><span>2019</span><br>Passed out Secondary Examination from Barsul C.D.P. High School</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+ </div>
+ <!--------------------------services----------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>As a web designer, I create the visual aspects of websites, including designing layouts, crafting graphics and icons, and ensuring usability and accessibility, to make websites both attractive and user-friendly.</p>
+            <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>As a Data Analyst, you analyze and interpret complex datasets to extract valuable insights. You create data visualizations, manage databases, and apply statistical techniques to support decision-making, making data both accessible and actionable.</p>
+            <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--my work-->
+ <div id="Work"></div>
+ <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.jpg">
+            <div class="layer">
+                <h3>Portfolio website</h3>
+                <p>I am here to craft an exceptional portfolio website that will elevate your job application and amplify your identity to the world. With a focus on professional design, seamless functionality, and personalized details, I ensure your portfolio stands out and leaves a lasting impression on potential employers and audiences alike. Let me help you showcase your skills and achievements in the most compelling way possible.</p>
+                <a href="https://github.com/SuprakashRoy/Portfolio.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.jpg">
+            <div class="layer">
+                <h3>Online Frontend Simulator</h3>
+                <p>Welcome to Frontend Simulator, the ultimate platform for testing and experimenting with HTML and CSS. I am dedicated to providing you with a seamless coding experience, real-time previews, intuitive design tools, and an efficient learning environment. Your creativity is my priority, and I'm here to ensure your web development journey is smooth and rewarding.</p>
+                <a href="https://github.com/SuprakashRoy/Frontend-Online-Simulator.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.jpg">
+            <div class="layer">
+                <h3>OLA Data Analysis</h3>
+                <p>OLA Data Analysis using SQL and Power BI, This project focuses on analyzing OLA ride data using SQL for querying and Power BI for visualization. It provides insights into trip patterns, revenue trends, and performance metrics, helping to optimize decision-making through data-driven analysis.</p>
+                <a href="https://github.com/SuprakashRoy/OLA-DATA-ANALYSIS-WITH-SQL-AND-POWER-BI.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-4.jpg">
+            <div class="layer">
+                <h3>Sales Data Analysis</h3>
+                <p>Sales Data Analysis, This project focuses on analyzing sales trends, customer behavior, and revenue insights using Excel interactive dashboards. It enables data-driven decision-making by visualizing key metrics and uncovering business patterns for improved sales strategies.</p>
+                <a href="https://github.com/SuprakashRoy/SALES-DATA-ANALYSIS-WITH-EXCEL.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#"class="btn">See more</a>
+ </div>
+ <!---contact-->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>suprakashroy71@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7478436016</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/suprakash.roy.7965?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/suprakash-roy-0355882a2/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SuprakashRoy"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="Text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email">
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i>Suprakash. Made <i class="fa-solid fa-heart"></i> by Suprakash Roy</p>
+        </div>
+    </div>
+ </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>  
+ <script>
+var sidemenu= document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxs5qMHDJw6HWmz1Cxadj8gcdkkfpZYqlS6DjPh-3s0n-vm7Su1OQdTH3Pp3_2GGrabNg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Massage sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
